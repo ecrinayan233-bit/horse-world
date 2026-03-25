@@ -1,0 +1,121 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+#btn{
+    border-radius: 20px;
+}
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 24
+}
+.nav-link:hover{
+background-color: lightgrey;
+
+}
+.nav-link{
+    margin-left:40px;
+}
+.nav-link:hover{
+    color: antiquewhite;
+}
+
+ul li  {
+    text-align: left;
+}
+#baslik {
+    text-align: left;
+    font-size: 18px ;
+}
+#metin{
+    text-align: left;
+}
+#cumle{
+    text-align: left;
+}
+ol{
+    text-align: left;
+}
+#irk{
+    background-color: #E8E8E8;
+}
+#ilkyardim{
+    background-color:#E8E8E8;
+}
+#athastaliklari{
+    background-color: #E8E8E8;
+}
+#atterbiyesi{
+    background-color: #E8E8E8;
+}
+#gelenekselspor{
+    background-color: #E8E8E8;
+}
+#iletisim{
+    background-color: #E8E8E8;
+}
+
+
+
+
+
+.hakkimda-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.hakkimda-kart {
+    background: #fff;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    text-align: center;
+    transition: 0.3s;
+}
+
+.hakkimda-kart:hover {
+    transform: translateY(-5px);
+}
+
+.hakkimda-kart .icon {
+    font-size: 40px;
+    margin-bottom: 10px;
+    color: darkgray;
+}
+
+.hakkimda-kart h4 {
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.hakkimda-kart p {
+    font-size: 15px;
+    line-height: 1.6;
+}
+
+
+.konum-wrapper {
+    display: flex;
+    gap: 20px;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.harita, .gorsel {
+    flex: 1;
+}
+
+.gorsel img {
+    width: 500px;
+    height: 450px;
+  
+    align-items: center;
+
+
+
+    }

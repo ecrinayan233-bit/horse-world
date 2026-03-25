@@ -1,0 +1,1461 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Binicilik Kursu</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=search" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" />
+
+</head>
+<body>
+
+
+     <div class="logo"> <img src="images/logo-yaninda-yazi.png" width="400" height="100"></div> 
+
+    
+<nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top">
+  <div class="container">
+   
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button> <div class="logo"> <img src="images/logo5.png"  width="90" height="90"></div> 
+
+    <div class="collapse navbar-collapse" id="navbarScroll">
+      
+      <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll w" style="--bs-scroll-height: 100px;">
+        <li class="nav-item">
+        <a class="nav-link active fw-bold" aria-current="page" href="#ana" href="#ana">ANASAYFA</a>
+      </li>
+        <li class="nav-item">
+          <a class="nav-link active fw-bold" aria-current="page" href="#irk">AT IRKLARI</a>
+        </li>
+        <li class="nav-item active dropdown ">
+          <a class="nav-link dropdown-toggle fw-bold " href="#saglik" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            SAĞLIK
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#atbakim">At Bakımı</a></li>
+            <li><a class="dropdown-item" href="#ilkyardim">İlk Yardım</a></li>
+            <li><a class="dropdown-item" href="#atbeslenmesi">At Beslenmesi</a> </li>
+            <li><a class="dropdown-item" href="#athastaliklari">At Hastalıkları</a></li>
+          </ul>
+        </li>
+        <li class="nav-item active dropdown">
+          <a class="nav-link dropdown-toggle fw-bold" href="#binicilik" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+           BİNİCİLİK
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#temelbinicilik">Temel Binicilik Eğitimi</a></li>
+            <li><a class="dropdown-item" href="#atterbiyesi">At Terbiyesi-Dresaj</a></li>
+            <li><a class="dropdown-item" href="#engelatlama">Engel Atlama</a> </li>
+            <li><a class="dropdown-item" href="#gelenekselspor">Geleneksel Sporlar</a></li>
+          </ul>
+        </li>
+        <li class="nav-item">
+        <a class="nav-link active fw-bold" aria-current="page"  href="#hakkimda">HAKKIMDA</a>
+      </li>
+         <li class="nav-item">
+        <a class="nav-link active fw-bold" aria-current="page"  href="#iletisim">İLETİŞİM</a>
+      </li>
+      </ul>
+      <form class="d-flex" role="search">
+        <input class="form-control me-2" id="btn" type="search" placeholder="Ara Bul..." aria-label="Search"/>
+        <button class="btn btn-outline-success" type="submit">Ara</button>
+      </form>
+    </div>
+  </div>
+</nav>
+ 
+
+
+<!--Modal-->
+<!-- Button trigger modal -->
+
+
+<!-- Modal -->
+<div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="staticBackdropLabel">Genel Bilgiler:</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <ul>
+          <li class="fw-bold">Kökeni:</li>Arap Yarımadası.
+          <li class="fw-bold">Karakteri:</li> Zekası, sadakati ve yüksek enerjisiyle bilinir.
+          <li class="fw-bold">Vücut Yapısı:</li> Kendine has kavisli bir yüz yapısı (konkav profil) ve yüksekte duran bir kuyruk yapısına sahiptir. Diğer atlardan farklı olarak bir eksik omur ve kaburga kemiği ile doğarlar; bu da onlara kısa ve güçlü bir sırt sağlar.
+          <li class="fw-bold">Kullanım Alanı: </li>  Dayanıklılık (endurance) yarışlarında dünyanın en iyisidir. Çöl şartlarına uyum sağladığı için çok az suyla uzun mesafeler katedebilir.
+        </ul>
+        <p class="fw-bold">Neden Seçmelisin?</p> 
+Arap atları sadece hızları için değil, aynı zamanda estetik görünümleri için de dünya çapında en çok tercih edilen "show" atlarıdır. Türk kültüründe de "Küheylan" olarak adlandırılan soylu atların temelini oluştururlar.
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Kapat</button>
+        
+      </div>
+    </div>
+  </div>
+</div>
+<!--Modal End-->
+
+<!-- Modal1 -->
+<div class="modal fade" id="staticBackdrop1" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="staticBackdropLabel">Genel Bilgiler:</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+       
+          <ul>
+            <li class="fw-bold">Kökeni:</li>Hollanda (Friesland bölgesi). Orta Çağ'da şövalyeleri taşıyan savaş atlarının soyundan gelir.
+            <li class="fw-bold">Karakteri:</li> Çok dayanıklı, çalışkan ve sakin bir mizaca sahiptir. Bu özellikleri nedeniyle hem askeri amaçlarla hem de ağır tarım işlerinde kullanılmıştır.
+            <li class="fw-bold">Vücut Yapısı:</li> En belirgin özelliği "Palomino" rengidir; yani vücudu altın/kahve tonlarındayken yele ve kuyruğu kar beyazıdır. Orta boylu ama çok güçlü bir yapısı vardır
+            <li class="fw-bold">Kullanım Alanı: </li> Dağ yürüyüşleri, hafif tarım işleri ve engel atlama sporlarında çok başarılıdır.
+            <li class="fw-bold">Boyut: </li> Cidago Yüksekliği (Yerden omuz başına kadar): Genellikle 140 cm ile 152 cm arasındadır. (Bazı büyük türlerde 160 cm'yi zorlayabilir.)
+            Ağırlık: Ortalama 350 kg ile 500 kg arasındadır.
+          </ul>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Kapat</button>
+        
+      </div>
+    </div>
+  </div>
+</div>
+<!--Modal End-->
+
+<!-- Modal2 -->
+<div class="modal fade" id="staticBackdrop2" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="staticBackdropLabel">Genel Bilgiler:</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        
+          <ul>
+            <li class="fw-bold">Kökeni:</li>Kuzey Amerika. Aslında İspanyol kâşifler tarafından getirilen atların doğaya kaçıp vahşileşmesiyle (feral) oluşan bir ırktır. "Mustang" kelimesi İspanyolca "sahipsiz hayvan" anlamına gelen mesteño kelimesinden gelir.
+            <li class="fw-bold">Karakteri:</li> Bağımsızlığına en düşkün at ırkıdır. İnanılmaz derecede zeki ve hayatta kalma içgüdüleri çok gelişmiştir. Evcilleştirilmeleri sabır ister ama bir kez bağ kurduklarında çok sadıktırlar.
+            <li class="fw-bold">Vücut Yapısı:</li> Çok farklı renklerde olabilirler (parçalı, düz, benekli). Doğada hayatta kalmaya çalıştıkları için son derece kemikli, kaslı ve tırnak yapıları beton kadar serttir.
+            <li class="fw-bold">Önemi: </li> ABD yasalarıyla "Vahşi Batı'nın yaşayan sembolü" olarak koruma altına alınmışlardır.
+            <li class="fw-bold">Boyut: </li> Genellikle 155 cm ile 175 cm (cidago yüksekliği) arasındadırlar. Güçlü, kaslı ve kompakt bir vücut yapıları vardır
+          </ul>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Kapat</button>
+        
+      </div>
+    </div>
+  </div>
+</div>
+<!--Modal End2-->
+
+<!-- Modal3 -->
+<div class="modal fade" id="staticBackdrop3" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="staticBackdropLabel">Genel Bilgiler:</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+       
+          <ul>
+            <li class="fw-bold">Kökeni:</li> Orta Asya'nın kalbi olan günümüz Türkmenistan topraklarına dayanmaktadır. Bilimciler tarafından yaklaşık 3.000 yıl önce insanlar tarafından evcilleştirilmiş ilk at türlerinden biri olarak kabul edilir. 
+            <li class="fw-bold">Karakteri:</li> Genellikle tek bir kişiye bağlanma huyuyla bilinir. "Tek binicili at" olarak tanımlanır; sahibine aşırı sadıktır ancak yabancılara karşı mesafeli olabilir
+            <li class="fw-bold">Vücut Yapısı:</li>  Çok zarif, ince yapılı, uzun boyunlu ve atletiktir. "Çölün Yarışçısı" olarak bilinir; kumda batmadan hızla koşabilir. En belirgin özelliği, tüylerinin metalik bir parıltıya sahip olmasıdır. Kıl yapısı ışığı yansıtacak şekilde evrimleştiği için güneş altında altın veya gümüş gibi parlar.
+            <li class="fw-bold">Kullanım Alanı: </li>yüksek atletizm yetenekleri ve dayanıklılıkları sayesinde tarih boyunca çok stratejik alanlarda kullanılmıştır.
+            <li class="fw-bold">Boyut: </li>  Genellikle 150 cm ile 163 cm arasındadır. Bazı aygırlarda bu boy 165 cm’yi bulabilir. Ortalama 400 kg ile 500 kg arasındadır. Hafif olmaları, kum zeminlerde batmadan ilerlemelerine yardımcı olur.
+          </ul>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Kapat</button>
+        
+      </div>
+    </div>
+  </div>
+</div>
+<!--Modal End3-->
+
+<!-- Modal4 -->
+<div class="modal fade" id="staticBackdrop4" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="staticBackdropLabel">Genel Bilgiler:</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+       
+          <ul>
+            <li class="fw-bold">Kökeni:</li> Büyük Britanya ve İrlanda. Göçebe topluluklar tarafından ağır yük arabalarını çekmek için özel olarak yetiştirilmiştir.
+            <li class="fw-bold">Karakteri:</li>Dünyanın en uysal atlarından biri kabul edilir. "Yerdeki köpek kadar sakin" olarak tanımlanırlar; bu yüzden terapi atı olarak da kullanılırlar.
+            <li class="fw-bold">Vücut Yapısı:</li>  En belirgin özelliği "Piebald" (siyah-beyaz parçalı) veya "Skewbald" (kahverengi-beyaz parçalı) tüy yapısıdır. Dizlerinden aşağı dökülen ipeksi ve çok yoğun tüy yığınları (paçalar) vardır.
+            <li class="fw-bold">Kullanım Alanı: </li>  yüksek çeviklikleri ve estetik desenleri sayesinde günümüzde batı tarzı binicilik (western), engel atlama ve gösteri şovlarında en çok tercih edilen çok yönlü spor atlarıdır.
+            <li class="fw-bold">Boyut: </li> Yaklaşık 140-155 cm boyundadır. Kısa boylu olmasına rağmen çok geniş ve güçlü bir göğüs yapısına sahiptir.
+          </ul>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Kapat</button>
+        
+      </div>
+    </div>
+  </div>
+</div>
+<!--Modal End4-->
+
+<!-- Modal 5-->
+<div class="modal fade" id="staticBackdrop5" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="staticBackdropLabel">Genel Bilgiler:</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+       
+          <ul>
+            <li class="fw-bold">Kökeni:</li> ABD'nin kuzeybatısındaki Nez Perce yerlileri tarafından yetiştirilmiştir. Adını bölgedeki Palouse Nehri'nden alır.
+            <li class="fw-bold">Karakteri:</li>  Çok zeki, çevik ve güvenilirdir. Yerliler tarafından avcılık ve savaş için yetiştirildikleri için yüksek odaklanma yeteneğine sahiptirler.
+            <li class="fw-bold">Vücut Yapısı:</li> En belirgin özelliği benekli tüy yapısıdır. Ayrıca göz aklarının beyaz olması (insan gözü gibi) ve toynaklarının dikey çizgili olması onları diğer atlardan ayırır.
+            <li class="fw-bold">Kullanım Alanı: </li>yüksek atletizm yetenekleri ve dayanıklılıkları sayesinde tarih boyunca çok stratejik alanlarda kullanılmıştır.
+            <li class="fw-bold">Boyut: </li>   Genellikle 142-162 cm boyunda ve 430-570 kg ağırlığındadırlar ve 430 kg ile 545 kg (950 - 1,200 pounds) ağırlığındadırlar.
+
+          </ul>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Kapat</button>
+        
+      </div>
+    </div>
+  </div>
+</div>
+<!--Modal End5-->
+
+<!-- Modal6 -->
+<div class="modal fade" id="staticBackdrop6" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="staticBackdropLabel">Genel Bilgiler:</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+       
+          <ul>
+            <li class="fw-bold">Kökeni:</li>İskoçya’nın Clyde Vadisi. Ağır tarım işleri ve kömür taşımacılığı için yetiştirilmiş "soğukkanlı" bir devdir.
+            <li class="fw-bold">Karakteri:</li>  "Nazik Dev" unvanını Shire atları gibi onlar da taşır; son derece uysal, eğitimli ve sergilemeye meraklı bir yapıları vardır.
+            <li class="fw-bold">Vücut Yapısı:</li>   Genellikle doru (kahverengi) renktedirler; ancak yüzlerinde geniş bir beyaz akıtma ve dört ayaklarında dizlerine kadar uzanan beyaz "çoraplar" (uzun ipeksi tüyler) bulunur.
+            <li class="fw-bold">Kullanım Alanı: </li> devasa güçleri ve gösterişli yürüyüşleri sayesinde hem iş sahasında hem de eğlence sektöründe çok özel bir yere sahiptir. 
+            <li class="fw-bold">Boyut: </li>  Yaklaşık 170-190 cm boyunda ve 800-1000 kg ağırlığındadırlar. Sadece bir nalı, normal bir at nalından iki kat daha büyüktür.
+          </ul>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Kapat</button>
+        
+      </div>
+    </div>
+  </div>
+</div>
+<!--Modal End6-->
+
+<!-- Modal7 -->
+<div class="modal fade" id="staticBackdrop7" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="staticBackdropLabel">Genel Bilgiler:</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+       
+          <ul>
+            <li class="fw-bold">Kökeni:</li> İspanyol atlarının torunlarıdır ancak Kuzey Amerika yerlileri (Kızılderililer) tarafından özgürlüğün ve savaşın simgesi olarak kutsal kabul edilip yaygınlaştırılmıştır.
+            <li class="fw-bold">Karakteri:</li>   Çok enerjik, akıllı ve insan odaklı bir yapıya sahiptir. Atlı sporlarda binicisiyle mükemmel bir uyum sergiler.
+            <li class="fw-bold">Vücut Yapısı:</li>    En belirgin özelliği vücudundaki geniş beyaz lekelerdir. Genelde iki ana desenle tanınırlar: Overo (koyu renk üzerine düzensiz beyazlıklar) ve Tobiano (genelde beyaz bacaklar ve sırtta beyazlık).
+            <li class="fw-bold">Kullanım Alanı: </li> Hem batı tarzı binicilikte hem de gösteri dünyasında estetik görünümü nedeniyle en çok tercih edilen ırklardan biridir.
+            <li class="fw-bold">Boyut: </li>   Genellikle 142 cm ile 163 cm arasındadır. (Pinto ponyleri 142 cm altındayken, büyük binek türleri 160 cm üzerine çıkabilir.) Ortalama 430 kg ile 550 kg arasındadır.
+          </ul>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Kapat</button>
+        
+      </div>
+    </div>
+  </div>
+</div>
+<!--Modal End7-->
+
+<!-- Modal8-->
+<div class="modal fade" id="staticBackdrop8" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="staticBackdropLabel">Genel Bilgiler:</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+       
+          <ul>
+            <li class="fw-bold">Kökeni:</li>adından da anlaşılacağı üzere İber Yarımadası'na (günümüz İspanya ve Portekiz toprakları) dayanmaktadır. Binlerce yıllık geçmişiyle dünyanın en köklü safkanlarından biridir 
+            <li class="fw-bold">Karakteri:</li>   Olağanüstü derecede zeki ve uysaldır. Binicisiyle duygusal bir bağ kurar; bu yüzden "insan ruhunu anlayan at" olarak tanınır.
+            <li class="fw-bold">Vücut Yapısı:</li>   Genellikle doru (kahverengi) renktedirler; ancak yüzlerinde geniş bir beyaz akıtma ve dört ayaklarında dizlerine kadar uzanan beyaz "çoraplar" (uzun ipeksi tüyler) bulunur.
+            <li class="fw-bold">Kullanım Alanı: </li>  Klasik binicilik, at terbiyesi (dressage) ve savaş filmlerinde (heybetli duruşu nedeniyle) dünya çapında bir numaradır.
+            <li class="fw-bold">Boyut: </li> Yaklaşık 155-165 cm boyundadır. Atletik ve yuvarlak hatlara sahip, tam bir güç sembolüdür.
+          </ul>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Kapat</button>
+        
+      </div>
+    </div>
+  </div>
+</div>
+<!--Modal End8-->
+
+
+<!--gelenekselS modal start-->
+<!--modal 9 start-->
+
+<div class="modal fade" id="staticBackdrop9" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="staticBackdropLabel">Genel Bilgiler:</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+       
+        <p class="card-text fw-bold" id="baslik">Cirit Nedir?</p>
+        <P id="metin">Ata sporumuz cirit; âdeta Türklerin savaşa hazırlık provasıdır. Günümüzde cirit meydanında oynanan “Cirit” savaş esnasında at ve insan hareketlerini geliştirmek üzere ortaya çıkmıştır. Orta Asya’dan bugüne kadar varlığını sürdüren geleneksel sporumuz cirit oyununun merkezi günümüzde Erzurum’dur.</P>
+<p id="metin"><b>Cirit atı özellikleri</b> arasında korkusuz olması, hızlı ve çevik olması gelmektedir.</p>
+       <p class="card-text fw-bold" id="baslik">Cirit Atlarında Aranan Özellikler:</p>
+       <ul>
+        <li class="fw-bold">Manevra Kabiliyeti ve Çeviklik:</li>Dar alanlarda keskin dönüşler yapabilmeli, rakibin hamlelerinden kıvrak bir şekilde sıyrılabilmelidir.
+      <li>Oyun boyunca sürekli koşmak, yorgunluğa karşı dirençli olmak ve nefesinin kesilmemesi .</li>
+      <li class="fw-bold"> İtaat ve Binici Uyumu:</li>Binici dizginleri ayrıldığında (cirit fırlatırken veya yakalarken) kendi yolunu koruyun ve komutlara milisaniyelik tepkiler vermeyi sağlar.
+      <li class="fw-bold">Uluslararası Yapı:</li>Orta büyüklükte, kaslı, sağrılı, sağlam tırnaklı ve güçlü bacak yapısına sahip atlar tercih edilir. Türkiye'de özellikle Arap atları ve bu atların yerli ırklarla melezleri cirit için en uygun adaylar olarak görülür.
+    </ul>
+
+</div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Kapat</button>
+        
+      </div>
+    </div>
+  </div>
+</div>
+<!--modal 9 end-->
+
+<!--modal 10 start-->
+
+<div class="modal fade" id="staticBackdrop10" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="staticBackdropLabel">Genel Bilgiler:</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+       
+        <p class="card-text fw-bold" id="baslik">Atlı Okçuluğun Temel Prensipleri</p>
+        <P id="metin">Bu sporu diğerlerinden ayıran en büyük özellik, binicinin atı yönlendirmek için parmakların kullanılamamasıdır. Tamam atmak için iki el de meşgul olmadığında, tamamen ama yardımlarıyla ve sesli komutlarla kontrol edilir.</P>
+       <ul>
+        <li class="fw-bold">Ekipmanlar : </li>Geleneksel atlı okçulukta modern yaylar yerine organik (kompozit) Türk yayları kullanılır. Oklar genellikle ahşaptır. Biniciler, geleneksel Türk zırhları veya kaftanları giyerek bu kültürel dokuyu korurlar.
+      <li class="fw-bold"> Zihni Disiplin :</li>Dört nala giderken vurmak, müdahaleci bir odaklanmayı gerektirir. Binici, düzenli ritmiyle kendi nefesini oluşturmak zorundaydı.
+    </ul>
+     <p class="card-text fw-bold" id="baslik">Müsabaka Parkurları ve Disiplinler</p>
+     <p id="metin">Atlı okçuluk müsabakaları genellikle üç ana disiplin üzerinden yürütülür:</p>
+     <ol>
+      <li class="fw-bold">Parkur Tablası :</li>Yaklaşık 90-100 metrelik bir parkurda, dört kat boyunca hedefte (tabla) destek sağlanır. Hedefler ön, yan ve arka açıklarda yer alabilir.
+    <li class="fw-bold">Kabak Parkuru : </li>Tarihi bir Osmanlı geleneğidir. Parkurun ortasında yüksek bir direğin seçilebilen bir hedef (kabak veya metal plaka) bulunur. Binici, direğin altından geriye doğru doğru (neredeyse dikey bir açıyla) ok atarak hedefi vurmaya çalışıyor.
+    <li class="fw-bold">Kule Parkuru :</li> Daha çok Macar ekolünde yaygın olan, dönen bir kule üzerindeki hedeflere parkur boyunca sürekli ok atılmasını içeren bir disiplindir.
+  </ol>
+  <p class="card-text fw-bold" id="baslik">Puanlama Sistemi</p>
+  <p id="metin">Puanlama; Hedefin vurulduğu nokta (merkeze yakınlık), parkuru bitirme süresi ve kullanılan okunan geleneksel olup olmaması gibi bölünmelere göre yapılır. Parkur kaydedilirse daha hızlı bitirilirse ek puan kazanılır.</p>
+
+</div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Kapat</button>
+        
+      </div>
+    </div>
+  </div>
+</div>
+
+<!--modal 10 end-->
+
+<!--modal 11 start-->
+<div class="modal fade" id="staticBackdrop11" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="staticBackdropLabel">Genel Bilgiler:</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+       
+        <p class="card-text fw-bold" id="baslik">Rahvan Yürüyüşü Nedir?</p>
+        <P id="metin">Atın normalde dört temel yürüyüş (adeta, süratli, kenter, dörtnal) vardır. Rahvan , aynı parçaların (örneğin sağ ön ve sağ arka) birlikte oluşmasıyla oluşur, biniciyi hareket ettirir ve zıplatmayan özel bir ritimdir.</P>
+       <ul>
+        <li class="fw-bold">Binici Konforu : </li>Bu stilde yürürken sırtta neredeyse hiç sarsılmaz. Eskiden menzil atları ve posta taşıyıcıları, uzun mesafeleri yorulmadan ve biniciyi sarsmadan katetmek için bu yürüyüşleri tercih ederlerdi.
+      <li class="fw-bold">Hız ve Ritim :</li>Rahvan, dörtnal kadar hızlı değil ancak süratli yürüyüşten çok daha hızlıdır. Önemli olan, bu ritmin bozulmasından (dörtnala kalkmadan) ve yüksek hıza durdurulmasıdır.
+
+    </ul>
+     <p class="card-text fw-bold" id="baslik">Rahvan Yarışları ve Kurallar</p>
+     <p id="metin">Türkiye'de rahvan yarışları genellikle panayır havasında geçer ve kendine has kuralları vardır:</p>
+     <ol>
+      <li class="fw-bold">Disiplin :</li> Yarış boyunca rahvanı bozmamak gerekir. Heyecanlanıp dörtnala (bozuk yürüyüş) durursa, binicisi onu hemen yavaşlatıp tekrar rahvan ritmine sokmalıdır. Israrla hala bozan atlar diskalifiye edilir.
+    <li class="fw-bold">Kategoriler : </li>Atlar genellikle yaşlarına ve erkek çocuklarına göre (Baş, Başaltı, Büyük Orta, Küçük Orta, Deste vb.) kategorilere ayrılır.
+    <li class="fw-bold">Geleneksel Kıyafetler :</li> Biniciler genellikle yöresel elbiseler, çizmeler ve kasketlerle yarışlara katılarak kültürel görselliğini korurlar.
+  </ol>
+  <p class="card-text fw-bold" id="baslik">Rahvan Atlarının Özellikleri</p>
+  <p id="metin">Rahvan'da koşamaz. Bu yetenek genellikle genetik bir mirastır. Türkiye'de özellikle Canik (Samsun) ve Ayvacık (Çanakkale) bölgelerinde yetişen yerli atlar rahvan yürüyüşlerine en yatkın ırklar olarak bilinir. Bu atlar genellikle orta boylu, kısa bacaklı ama oldukça kaslı ve dayanıklıdır.</p>
+
+</div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Kapat</button>
+        
+      </div>
+    </div>
+  </div>
+</div>
+<!--modal 11 end-->
+<!--modal 12 start-->
+
+<div class="modal fade" id="staticBackdrop12" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="staticBackdropLabel">Genel Bilgiler:</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+       
+        <p class="card-text fw-bold" id="baslik">Oyunun Özü</p>
+        <P id="metin">"Kökbörü" adı "Mavi Kurt" anlamına gelir. En geleneksel biçiminde, oyuncular bir keçi leşini (günümüzde hayvan refahı için genellikle 30-35 kg'lık sentetik bir kalıp) kapıp belirlenmiş bir hedef alana teslim etmek için yarışırlar.</P>
+       <ul>
+        <li class="fw-bold">Takım Oyunu : </li>Genellikle her biri 12 oyuncudan oluşan (aynı anda sahada 4 oyuncu bulunan) iki takım tarafından oynanır.
+        <li class="fw-bold">Hedef (Tay-Kazan) :</li> Oyuncular dörtnala giderken yerdeki hayvan leşini almalı, rakiplerinden korumalı ve sahanın karşı ucunda bulunan <i>Tay-Kazan adı verilen büyük, dairesel bir tümsek veya kaba atmalıdırlar.</i> 
+    <li class="fw-bold">Fiziksel Zorluk : </li>Bu, yüksek temas gerektiren bir spordur. Biniciler, rakiplerini itmek ve engellemek için atlarını kullanırlar; hareket halindeki bir atın üzerinde asılı dururken ağır "kurtu" yukarı çekmek için muazzam bir üst vücut gücü gerekir.
+      </ul>
+     <p class="card-text fw-bold" id="baslik">"Börü" Efsanesi</p>
+     <p id="metin">Tarihsel olarak, bu spor göçebe kabileler ve kurtlar arasındaki mücadeleyi yansıtır. Bir kurt sürüye saldırdığında, en cesur genç erkekler at sırtında onu avlardı. Geri dönüş yolunda, kurdun cesedini birbirlerine atarlardı; bu da zamanla savaşçıları barış zamanında savaşa hazır tutan rekabetçi bir spora dönüştü.</p>
+     <p class="card-text fw-bold" id="baslik">Temel Kurallar ve Şartlar</p>
+     <ol>
+      <li class="fw-bold">Ulaka :</li> Uğruna kavga edilen nesne (leş veya sentetik ağırlık).
+    <li class="fw-bold">Chaban :  </li>Bu oyunu oynayan yetenekli binicilere verilen isim.
+    <li class="fw-bold">Yasak Hareketler :</li>Rakibin atına vurmak, ulakayı <i> eyer'e</i> bağlamak için ip kullanmak veya rakibe kırbaçla vurmak kesinlikle yasaktır.
+
+  </ol>
+  <p class="card-text fw-bold" id="baslik">Kökbörü'nün Atları</p>
+  <p id="metin">Kökbörü atları özeldir. Diğer atların oluşturduğu "kalabalık" arasından korkutulmadan geçebilecek kadar inanılmaz derecede güçlü ve ağır olmaları gerekir. Binici yere eğildiğinde hareketsiz duracak ve ağırlık sabitlendiğinde anında depar atacak şekilde eğitilirler.
+</p>
+
+</div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Kapat</button>
+        
+      </div>
+    </div>
+  </div>
+</div>
+
+<!--modal 12 end-->
+
+<!--modal 13 start-->
+
+<div class="modal fade" id="staticBackdrop13" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="staticBackdropLabel">Genel Bilgiler:</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+       
+        <p class="card-text fw-bold" id="baslik">Sporun Mekaniği</p>
+        <P id="metin">Bu spor, atın gücü ile sürücünün (kızak sürücüsünün) buzlu arazide denge kurma yeteneği arasındaki uyuma dayanır.</P>
+       <ul>
+        <li class="fw-bold">Kızak:  </li>Geleneksel olarak meşe veya çam gibi sağlam ağaçlardan el yapımı olarak üretilen bu kızaklar, buz ve sıkıştırılmış kar üzerinde sorunsuz bir şekilde kaymak için metal kızak raylarına sahiptir. Hafif olmalarına rağmen yüksek hızlı titreşimlere dayanacak kadar sağlam olacak şekilde tasarlanmışlardır.
+        <li class="fw-bold">Pist:</li> <b>Yarışlar genellikle düz, karla kaplı ovalarda veya en ünlü örneğiyle Çıldır Gölü'nün donmuş yüzeyinde yapılır</b> . Pistlerin uzunluğu genellikle 600 ila 1200 metre arasında değişir.
+    <li class="fw-bold">Kategoriler:</li> <b>Tek atlı kızak</b> <i>( Tekli )</i> ve <b>çift atlı kızak</b> <i>( Çiftli )</i> yarışmaları düzenlenmektedir .
+      </ul>
+     <p class="card-text fw-bold" id="baslik">"Kış" Atları</p>
+     <p id="metin">Her at, sıfırın altındaki sıcaklıklara ve donmuş bir gölün kaygan yüzeyine dayanamaz.</p>
+  
+     <ul>
+      <li class="fw-bold">Nallama (At Nalbantlığı): </li> Bu, en kritik teknik detaydır. Atın buz üzerinde sağlam bir şekilde tutunmasını sağlamak, kaymaları ve yaralanmaları önlemek için sivri uçlu (kalkan şeklinde) "kış nalları" kullanılır.
+    <li class="fw-bold">Irklar: </li>Kalın tüyleri ve sert Kafkas kışlarına doğal dirençleri nedeniyle Erzurum ve Kars bölgelerine özgü yerel ırklar tercih edilmektedir.
+
+  </ul>
+  <p class="card-text fw-bold" id="baslik">Kültürel Önemi</p>
+  <p id="metin">Atlı kızak, kış festivallerinin en önemli etkinliğidir. Kars, Ardahan ve Erzurum gibi şehirlerde bu yarışlara davul , zurna ve halk dansları eşlik eder . Uzun ve karanlık kış aylarında yerel ruhu canlı tutan sosyal bir buluşmadır.</p>
+ 
+  <p class="card-text fw-bold" id="baslik">Nerede Görülebilir?</p>
+<p id="metin">Bu deneyimi canlı olarak yaşamak istiyorsanız, genellikle buzların en kalın olduğu Şubat ayında düzenlenen Çıldır Gölü Altın At Kristal Kış Festivali en prestijli etkinliktir.</p>
+
+
+</div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Kapat</button>
+        
+      </div>
+    </div>
+  </div>
+</div>
+
+<!--modal 13 end-->
+<!--modal 14 star-->
+
+<div class="modal fade" id="staticBackdrop14" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="staticBackdropLabel">Genel Bilgiler:</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+       
+        <p class="card-text fw-bold" id="baslik">Oyun Nasıl Oynanır?</p>
+        <P id="metin">Temel amaç, ucu kıvrık uzun bir tahta sopa kullanarak topu rakibin kalesine sokmaktır.</P>
+       <ul>
+        <li class="fw-bold">Çevgen Sopası: </li>Geleneksel olarak söğüt veya dişbudak gibi esnek ağaçlardan yapılan, topu yakalamak ve sürmek için kavisli veya "kancalı" bir uca sahip sopa.
+        <li class="fw-bold">Top (Üst): </li>Tarihsel olarak sert ağaçtan veya doldurulmuş deriden yapılırdı.
+        <li class="fw-bold">Saha:</li> Genellikle geniş, düz bir çimenlik alanda oynanır. Osmanlı döneminde bu özel sahalar Cündimeydanı olarak bilinirdi .
+      <li class="fw-bold">Takımlar:</li> İki takım arasında oynanır ve bireysel hızdan ziyade paslaşmaya ve stratejik pozisyon almaya odaklanır.
+
+      </ul>
+     <p class="card-text fw-bold" id="baslik">Tarihsel Önemi</p>
+     <p id="metin">Çevgen bir oyundan çok daha fazlasıydı; "kan dökülmeden yapılan bir savaş"tı.</p>
+  
+     <ul>
+      <li class="fw-bold">Saray Geleneği:</li> <b> Selçuklu</b> ve <b>Osmanlı</b> saraylarında sevilen bir eğlenceydi . Sultanlar ve yüksek rütbeli komutanlar, barış zamanlarında taktiksel düşünme ve binicilik becerilerini korumak için bu oyunu oynarlardı.
+    <li class="fw-bold">Edebi Varlığı:</li> Bu oyun , cesaret ve asaleti simgeleyen <i> Dede Korkut</i> öyküleri ve <i>Kutadgu Bilig</i> gibi klasik Türk edebiyatı ve destanlarında sıkça anılmaktadır .
+    <li class="fw-bold">Küresel Etki:</li>İngilizler, Hindistan'da (Pers ve Orta Asya'dan yayılmış olan) bu oyunla karşılaştıklarında, kurallarını kodlayıp Batı'ya "Polo" olarak tanıttılar.
+  </ul>
+  <p class="card-text fw-bold" id="baslik">Çevgen'deki At</p>
+  <p id="metin"><b>Çevgen atı son derece duyarlı</b> olmalıdır . Binici genellikle topa ulaşmak için eyerden oldukça fazla dışarı doğru eğildiğinden, at mükemmel bir dengeyi korumalı ve binicinin ağırlığındaki en ufak bir değişikliğe veya sesli komuta göre yön değiştirmelidir.  </p>
+
+  <p class="card-text fw-bold" id="baslik">Nerede Görülebilir?</p>
+<p id="metin">Bu deneyimi canlı olarak yaşamak istiyorsanız, genellikle buzların en kalın olduğu Şubat ayında düzenlenen Çıldır Gölü Altın At Kristal Kış Festivali en prestijli etkinliktir.</p>
+
+
+</div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Kapat</button>
+        
+      </div>
+    </div>
+  </div>
+</div>
+
+<!--modal 14 end-->
+
+<!--gelenekselS modal End-->
+
+<!--anasayfa start-->
+<section class="text-center p-4" id="ana">
+  <div class="container"> 
+          <h2 class="fw-bold">ANASAYFA <span class="material-symbols-outlined">
+home
+</span></h2>
+      <br>
+<hr>
+<div id="carouselExample" class=" container carousel slide">
+  <div class="carousel-inner">
+    <div class="carousel-item active ">
+      <img src="images/55.jpg" width="00" height="500" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="images/1200x628.jfif"width="00" height="500" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="images/beyazat.jpg"width="00" height="500" class="d-block w-100" alt="...">
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button> 
+</div>
+<br>
+<hr>
+  </div>
+</section>
+<!--anasayfa end-->
+
+
+
+
+
+<!--At ırkları Start-->
+<br>
+<section class="text-center p-4" id="irk">
+  <div class="container">
+      <h2 class="fw-bold">AT IRKLARI <span class="material-symbols-outlined">
+chess_knight
+</span></h2>
+      <br>
+<hr>
+
+<div class="row row-cols-1 row-cols-md-3 g-4">
+  <div class="col">
+    <div class="card h-100">
+      <img src="images/arapati3.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Arap Atı (Arabian Horse)</h5>
+        <p class="card-text">Zekası, sadakati ve insanlarla kurduğu güçlü bağ ile bilinir. Dayanıklılık yarışlarının rakipsiz şampiyonudur.</p>
+        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+         Devamını Oku...
+        </button>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card h-100">
+      <img src="images/Friesian (Frizya) Atı.jpg  " class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Friesian (Frizya) Atı
+        </h5>
+        <p class="card-text"> Çok zeki, öğrenmeye istekli, nazik ve insan canlısı bir doğaları vardır.</p>
+        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop1">
+          Devamını Oku...
+        </button>
+    
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card h-100">
+      <img src="images/Mustang Atı (Özgürlüğün Simgesi).jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Mustang Atı (Özgürlüğün Simgesi)</h5>
+        <p class="card-text">Özgürlüklerine aşırı düşkündürler. Bu yüzden "ehlileştirilmeleri" diğer atlara göre çok daha zordur ve sabır gerektirir.</p>
+        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop2">
+          Devamını Oku...
+        </button>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card h-100">
+      <img src="images/AkhalTeke.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Ahal Teke (Altın At) </h5>
+        <p class="card-text"> Çöl iklimine uyum sağladıkları için çok az su ve gıda ile çok uzun mesafeler katedebilirler. Bu özellikleri onları dünya çapındaki uzun mesafe yarışlarının favorisi yapar.</p>
+        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop3">
+          Devamını Oku...
+        </button>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="col">
+    <div class="card h-100">
+      <img src="images/Gypsy Vanner (İrlanda Cobu).jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Gypsy Vanner (İrlanda Cobu) </h5>
+        <p class="card-text"> Olağanüstü sakin, sabırlı ve "insan canlısı" karakterleri sayesinde, engelli bireylerin fiziksel ve ruhsal tedavisinde kullanılan en iyi terapi atlarından biri kabul edilirler.</p>
+        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop4">
+          Devamını Oku...
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <div class="col">
+    <div class="card h-100">
+      <img src="images/Appaloosa (Benekli At).jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Appaloosa (Benekli At) </h5>
+        <p class="card-text">  Çok uyumlu ve zeki olan bu atlar, Kuzey Amerika yerlileri (Kızılderililer) tarafından "savaş boyalı" görünümleri nedeniyle manevi bir değer atfedilerek yetiştirilmiştir.</p>
+        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop5">
+          Devamını Oku...
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <div class="col">
+    <div class="card h-100">
+      <img src="images/Clydesdale Atı (İskoçya’nın Gücü).jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Clydesdale Atı (İskoçya’nın Gücü)        </h5>
+        <p class="card-text"> Tarihsel olarak kömür madenlerinde, tarım tarlalarında ve ağır vagonların çekilmesinde ana güç kaynağı olarak kullanılmışlardır.</p>
+        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop6">
+          Devamını Oku...
+        </button>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card h-100">
+      <img src="images/attt.jfif" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Pinto Atı (Alaca / Paçalı At) </h5>
+        <p class="card-text"> Çöl iklimine uyum sağladıkları için çok az su ve gıda ile çok uzun mesafeler katedebilirler. Bu özellikleri onları dünya çapındaki uzun mesafe yarışlarının favorisi yapar.</p>
+        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop7">
+          Devamını Oku...
+        </button>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card h-100">
+      <img src="images/Andalusia Atı (İspanyol Safkanı).jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Andalusia Atı (İspanyol Safkanı) </h5>
+        <p class="card-text">Bu atların ataları, buz çağından beri İber Yarımadası'nda yaşayan yerli atlardır. Roma döneminde savaşlarda sergiledikleri hız ve çeviklik sayesinde ün kazanmışlardır </p>
+        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop8">
+          Devamını Oku...
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+
+</section>
+
+<!--At ırkları End-->
+
+
+<!--sağlık start-->
+<section class="text-center p-4"id="atbakim" >
+  <div class="container">
+      <h2 class="fw-bold">AT BAKIMI <span class="material-symbols-outlined">
+self_care
+</span></h2>
+      <br><hr>
+<div class="card  mb-3" style="max-width: 750px;">
+<div class="row g-0">
+
+<div class="col-md-4">
+  <img src="images/Beslenme ve Su (Rasyon).jpg" class="img-fluid rounded-start" alt="...">
+</div>
+<div class="col-md-8">
+  <div class="card-body">
+    <h5 class="card-title">Beslenme ve Su (Rasyon)</h5>
+    <p class="card-text">Atlar az az ama sık beslenmelidir. Temel gıdaları kaliteli kuru ot (yonca vb.) ve yulaftır.</p>
+    <p class="card-text"><small class="text-body-secondary"> At Besleme Görseli</small></p>
+  </div>
+</div>
+</div>
+</div>
+<div class="card mb-3" style="max-width: 750px;">
+<div class="row">
+<div class="col-md-4">
+  <img src="images/Tımar Yapma (Fırçalama).jpg" class="img-fluid rounded-start" alt="...">
+</div>
+<div class="col-md-8">
+  <div class="card-body">
+    <h5 class="card-title">Tımar Yapma (Fırçalama)</h5>
+    <p class="card-text">Atın derisindeki tozun atılması ve kan dolaşımının hızlanması için hayati önem taşır. Önce sert kaşağı ile kaba kirler alınır, sonra yumuşak fırça ile parlatılır.</p>
+    <p class="card-text"><small class="text-body-secondary">At Tımarı Görseli</small></p>
+  </div>
+</div>
+</div>
+</div>
+
+<!--xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx-->
+<div class="card mb-3" style="max-width: 750px;">
+  <div class="row">
+  <div class="col-md-4">
+    <img src="images/Tırnak Bakımı (Toynak Temizliği).jpg" class="img-fluid rounded-start" alt="...">
+  </div>
+  <div class="col-md-8">
+    <div class="card-body">
+      <h5 class="card-title">Tırnak Bakımı (Toynak Temizliği)</h5>
+      <p class="card-text">Atın "ikinci kalbi" tırnaklarıdır. Tırnak kancası yardımıyla tabanda biriken taş, çamur ve gübre temizlenmelidir.</p>
+      <p class="card-text"><small class="text-body-secondary"> Tırnak Temizleme Görseli</small></p>
+    </div>
+  </div>
+  </div>
+  </div>
+
+  <div class="card mb-3" style="max-width: 760px;">
+    <div class="row">
+    <div class="col-md-4">
+      <img src="images/Barınma ve Temizlik.webp" class="img-fluid rounded-start" alt="...">
+    </div>
+    <div class="col-md-8">
+      <div class="card-body">
+        <h5 class="card-title"> Barınma ve Temizlik (Manej/Ahır)</h5>
+        <p class="card-text">Atın yaşadığı alan (boks) her gün temizlenmeli, ıslak altlıklar (talaş/saman) değiştirilmelidir.</p>
+        <p class="card-text"><small class="text-body-secondary"> Ahır Temizliği Görseli</small></p>
+      </div>
+    </div>
+    </div>
+    </div>
+
+
+
+</section>
+
+<!--sağlık end-->
+
+<!--İlk Yardım-->
+<section class="text-center p-4"id="ilkyardim" >
+  <div class="container">
+      <h2 class="fw-bold">İLK YARDIM <span class="material-symbols-outlined">
+health_cross
+</span></h2>
+      <br><hr>
+
+      <div class="row row-cols-1 row-cols-md-3 g-4">
+  <div class="col">
+    <div class="card">
+      <img src="images/respiratory.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">1. Yaşamsal oranların Kontrolü (TPR)</h5>
+        <p class="card-text">Atın normalin varlığının, bir sorunun olup olmadığının anlaşılmasının ilk adımıdır. </p>
+        <ul>
+          <li class="fw-bold">Ateş (T) :</li>Normali 37.5-38.5 arasıdır. Rektal olarak dijital termometre ile yerleşik.
+           <li class="fw-bold">Nabız (P) : </li> Dakikada 28-44 normaldir. Çenenin altından arterden veya göğüs kafesinin sol altından (dirseğin arkası) ölçülebilir.
+            <li class="fw-bold">Nefes (R) :</li>Dakikada 8-16 nefes normaldir. Atın yan tarafındaki (yan) hareketler izlenerek sayılır
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card">
+      <img src="images/2. Sancı (Kolik) Müdahalesi.jpg" height="275" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">2. Sancı (Kolik) Müdahalesi</h5>
+        <p class="card-text" >Atın huzursuzca yere yatıp yuvarlanması, karnına bakması veya tekmelemesi kolik belirtisidir.</p>
+        <ul>
+          <li class="fw-bold">Asla yem vermeyin :</li>Sancı fark ettiği anda tüm yiyeceklerin önünden çekinir.
+          <li class="fw-bold">Hafifçe yürütün :</li>Atın kendini yere atıp çıkışlarına zarar vermesini önlemek için yavaş tempoda yürütmek faydalı olabilir.
+       <li class="fw-bold">Veteriner hekimi bekleyin :</li>Kendi başınıza ilaç (özellikle ağrı kesici) kesmeyin, bu durum asıl sorunu maskeleyebilir.
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card">
+      <img src="images/Yaralanmalar ve Bandaj Uygulama.webp" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">3. Yaralanmalar ve Bandaj Uygulama</h5>
+        <p class="card-text">Bacak yaralanmalarında enfeksiyonu önlemek ve kanamayı durdurmak için doğru bandajlama kritiktir</p>
+        <ul>
+          <li class="fw-bold">Temizlik:</li>Yarayı temiz su veya serum fizyolojik ile yıkayın.
+           <li class="fw-bold">Pansuman: </li> Steril bir gazlı bezle yarayı kapatın.
+            <li class="fw-bold">Bandajlama: </li>Bandajı her zaman önden arkaya ve dıştan içe doğru sarın. Çok sıkı sarmamaya dikkat edin, bu kan dolaşımını engelleyebilir.
+        </ul> <br> <br>
+      </div>
+    </div>
+  </div>
+  
+</div>
+  </div>
+</section>
+
+<!--ilk Yardım end-->
+
+
+<!--at beslenmesi start-->
+<section class="text-center p-4"id="atbeslenmesi" >
+  <div class="container">
+      <h2 class="fw-bold">AT BESLENMESİ <span class="material-symbols-outlined">
+calendar_meal
+</span></h2>
+      <br><hr>
+<div class="card mb-3">
+  <img src="images/AT BESLENMESİ.avif" width="200" height="400" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h3 class="card-title">At Beslenmesi</h3>
+    <hr>
+    <p class="card-text fw-bold" id="baslik">1. Beslenmenin Temeli: Kaba Yem (Ot ve Yonca)
+</p>
+<p id="metin">Atların diyetinin en az %60-70'i kaliteli kuru ot veya meradan oluşması gerekir. Bu, toplanmış mide asitlerinin ilişkilerine yardımcı olur ve vücuttan ayrılanların kötü dağılması (çiğneme gibi) engeller.
+</p>
+<ul>
+  <li class="fw-bold">Çayır Otu:</li><p id="cumle">Genel bakım için ideal bir kaba yemdir.</p>
+  <li class="fw-bold">Yonca (Yonca): </li><p id="cumle">Protein ve ihtiyacı yüksek olan büyüyen taylar veya çalışan atlar için tercih edilir.
+</p>
+</ul>
+  <p class="card-text fw-bold" id="baslik">2. Yoğun (Konsantre) Yemler ve Tahıllar </p>
+  <p id="metin">Sadece kaba yemle enerji ihtiyaçları karşılanamayan performans atları için eklenir.
+    <ul>
+  <li class="fw-bold">Yulaf:</li><p id="cumle">Atlar için en güvenlidir, kolay sindirilir.</p>
+  <li class="fw-bold">Arpa ve Mısır: </li><p id="cumle">Enerji yoğunluğunun yüksek ancak sindirim sorunlarına yol açmaması için sınırlandırılması.
+</p>
+</ul>
+<p class="card-text fw-bold" id="baslik">3. Su ve Mineraller </p>
+  <p id="metin">Atların günde ortalama 20-50 litre taze ve temiz suya erişimi olmalıdır. Ayrıca mineral eksikliklerini gidermek için barınaklarında her zaman bir yalama taşı (tuz tükenir) bulunmalıdır.
+    <p class="card-text fw-bold" id="baslik">Beslenmede Altın Kurallar: </p>
+    <ul>
+  <li class="fw-bold">Az Az, Sık Sık:</li><p id="cumle">Atın mide kapasitesi değişir, bu nedenle günlük rasyon en az 3-4 öğüne bölünmemelidir.</p>
+  <li class="fw-bold">Kademeli Geçiş: </li><p id="cumle">Yeni bir yeme veya meraya geçişte sindirim şokunu (kolik) önlemek için en az 7-10 gün süreli eski yemle karıştırılarak geçiş yapılmalıdır.
+    <li class="fw-bold">Temiz Yem: </li><p id="cumle">Tozlu veya küflü yemler solunum ve sindirime uğramak (öksürük, sancı) neden olur.</p>
+
+</p>
+</ul>
+  </div>
+</div>
+  </div>
+</section>
+<!--at beslenmesi end-->
+
+
+<!--at hastalıkları start-->
+<section class="text-center p-4"id="athastaliklari" >
+  <div class="container">
+      <h2 class="fw-bold">AT HASTALIKLARI <span class="material-symbols-outlined">
+medical_services
+</span></h2>
+      <br><hr>
+<div class="row row-cols-1 row-cols-md-4 g-5">
+  <div class="col">
+<div class="card" style="width: 18rem;">
+  <img src="images/1. Sancı (Kolik).jpg" height="210" class="card-img-top" alt="...">
+  <div class="card-body">
+      <p class="card-text fw-bold" id="baslik">1. Sancı (Kolik) </p>
+    <p id="metin">Atlar kuşamadıkları için mide ve ihracat problemleri hayati risk taşıyor. En yaygın ölüm nedenlerinden biridir.
+    <ul>
+  <li class="fw-bold">Problemleri:</li><p id="cumle">Karnına bakma, sürekli yatıp kalkma, eşlenme ve iştahsızlık.</p>
+  <li class="fw-bold">Görsel İşaret: </li><p id="cumle">Atın huzursuzca yerde yuvarlanmaya çalışması veya yatma "köpek oturuşu" pozisyonları görünmektedir .
+</p>
+</ul> <br>
+  </div></div>
+</div>
+<div class="col">
+<div class="card" style="width: 18rem;">
+  <img src="images/Ruam (Malleus).jpg" height="210" class="card-img-top" alt="...">
+  <div class="card-body">
+      <p class="card-text fw-bold" id="baslik">2. Ruam (Malleus)</p>
+    <p id="metin">Özellikle tek tırnaklı özellikleri, son derece zayıflıkları ve basınç değişimlerinin bir belirtisidir. İnsanlara da bulaşabildiği için (zoonoz) büyük önem taşır.
+    <ul>
+  <li class="fw-bold">Enfeksiyonlari: </li><p id="cumle">Burun deliklerinden gelen kanlı/irinli akıntı, akciğerlerde nodüller ve deri  üzerinde yaralar ve tırnakta vb. etkiler bulunabilir .
+
+</p>
+</ul><br> <br> <br>
+  </div>
+</div>
+  </div> 
+
+  <div class="col">
+<div class="card" style="width: 18rem;">
+  <img src="images/Arpılama (Laminitis).jpg" height="210" class="card-img-top" alt="...">
+  <div class="card-body">
+      <p class="card-text fw-bold" id="baslik">3.  Arpalama (Laminitis)</p>
+    <p id="metin">Tırnağın içindeki hassas dokuların salgılanmasıdır. Aşırı karbonhidrat tüketimi (fazla dönemde) veya sert zeminde fazla çalışma sonucu oluşur.
+    <ul>
+  <li class="fw-bold">Görsel İşaret: </li><p id="cumle">At, ön ayaklarındaki ağrıyı hafifletmek için arka ayaklarına yüklenerek "kaykaycı" gibi doğru ileri uzanır. Tırnaklar dokunulduğunda sıcaktır.
+
+</p>
+</ul><br> <br> <br>
+  </div>
+</div>
+  </div>
+
+    <div class="col">
+<div class="card" style="width: 18rem;">
+  <img src="images/Solunum Yolu Hastalıkları.jpg" height="210" class="card-img-top" alt="...">
+  <div class="card-body">
+      <p class="card-text fw-bold" id="baslik">4. Solunum Yolu Hastalıkları (Heves/RAO)</p>
+    <p id="metin">Tozlu yemler veya yetersiz havalandırma atlarda kronik öksürüğe ve solunum güçlüğüne neden olabilir.
+    <ul>
+  <li class="fw-bold">antibiyotikleri: </li><p id="cumle"> Egzersiz sırasında çabuk yorulma, burun akıntısı ve karın kaslarının nefesleri boyunca aşırı belirginleşmesi ("kanama çizgisi").
+
+</p>
+</ul><br> <br> <br>
+  </div>
+</div>
+  </div>
+
+</section>
+
+<!--at hastalıkları end-->
+
+<!--temeş binicilik eğitimi start-->
+<section class="text-center p-4"id="temelbinicilik" >
+  <div class="container">
+      <h2 class="fw-bold">TEMEL BİNİCİLİK EĞİTİMİ <span class="material-symbols-outlined">
+library_books
+</span></h2>
+      <br><hr>
+
+      <div class="row row-cols-1 row-cols-md-2 g-4">
+  <div class="col">
+    <div class="card">
+      <img src="images/Tımar.webp" width="200" height="250" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title fw-bold" id="baslik">1. Ata Yaklaşma ve Hazırlık (Tımar)</h5>
+          
+    <p id="metin">Temel binicilik eğitimi, atla güvenli bir bağ kurmaktan başlayıp doğru oturuş ve sevk tekniklerine kadar süren disiplinli bir şekilde söylendi
+
+    <ul>
+  <li class="fw-bold">Güvenli Yaklaşım: </li><p id="cumle"> Atın sol ön omzuna doğru, seslenerek ve sakin adımlarla yaklaşılır.
+</p>
+<li class="fw-bold">Malzemeler: </li><p id="cumle"> Kaşağı, toz kurutma ve tırnak kancası en temel araçlardır.
+</p>
+    </ul>
+   <p id="metin">Binicilik sadece ata binmek değil, aynı zamanda onun bakımını da üstlenmektedir. Atın temizlenmesi (tımar), gözün vurulacağı bölgedeki kirlerin temizlenerek rahatsız edilmesi engellenir. </p>
+     <ul>
+  <li class="fw-bold">Kaşağı: </li><p id="cumle"> Derideki kurumuş çamurları çıkar.
+</p>
+<li class="fw-bold">Fırçalar:  </li><p id="cumle"> Tozları temizler ve tüyleri parlatır.
+</p>
+<li class="fw-bold">Tırnak Kancası:  </li><p id="cumle">  Tırnak aralarına kaçan taş ve pislikleri temizler.
+</p>
+    </ul>
+  </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card">
+      <img src="images/Doğru Oturuş ve Denge.jpg" width="250" height="300" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title fw-bold" id="baslik">2. Doğru Oturuş ve Denge</h5>
+          
+    <p id="metin">Binicilikte eller, ayaklar ve vücut ağırlığı atla iletişim kurmanın temel araçlarıdır. 
+
+    <ul>
+  <li class="fw-bold">Duruş:  </li><p id="cumle"> Baş, omuz, kalça ve topuk düz bir şapka üzerinde olmalıdır.
+</p>
+<li class="fw-bold">Dizgin Tutuşu:  </li><p id="cumle">Dizginler birer iletişim hattı olarak görülmeli, asla ata tutunmak için çekilmemelidir.
+</p>
+ <li class="fw-bold">Bakışlar:</li><p id="cumle"> Atın kulaklarının arasından her zaman yararlanmak, gitmek istediğiniz yöne bakmalısınız. 
+</p>
+    </ul> <br> <br> <br> <br> <br> <br>
+  
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card">
+      <img src="images/Temel Yürüyüş Teknikleri.jpg" width="250" height="300" class="card-img-top" alt="...">
+      <div class="card-body">
+            <h5 class="card-title fw-bold" id="baslik">3. Temel Yürüyüş Teknikleri</h5>
+          
+    <p id="metin">Eğitim, üç yürüyüş temposu üzerinde yoğunlaşır:</p>
+    <ol>
+  <li class="fw-bold">Adeta (Yürüyüş):   </li><p id="cumle">Dört zamanlı, yavaş ve doğal bir yürüyüştür.
+</p>
+<li class="fw-bold">Süratlı (Trot): </li><p id="cumle">İki zamanlı bir tempodur; binici eyerde hafifçe yükselip alçalarak (paylı süratli) ritmine uyum sağlar.
+</p>
+ <li class="fw-bold">Dörtnala (Canter): </li><p id="cumle">  Üç zamanlı, daha hızlı ve ritmik bir koşu türüdür.
+</p>
+    </ol>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card">
+      <img src="images/Güvenlik ve Donanım.jpg" width="250" height="300"  class="card-img-top" alt="...">
+      <div class="card-body">
+       <h5 class="card-title fw-bold" id="baslik">4. Güvenlik ve Donanım</h5>
+        <p class="card-text">Eğitim sırasında mutlaka kask (tog) ve uygun binicilik botu (chaps veya çizme) kullanın. Ayrıca atların ağırlığı taşıma kapasitesi nedeniyle genellikle 93 kg üzerindeki kişilerin binmesi sağlık açısından önerilmez. </p>
+     <br><br> <br> <br> <br> <br> <br>
+      </div>
+    </div>
+  </div>
+</div>
+      
+  </div>
+</section>
+
+<!--temeş binicilik eğitimi end-->
+   
+
+<!--at terbiyesi start-->
+<section class="text-center p-4"id="atterbiyesi" >
+  <div class="container">
+      <h2 class="fw-bold">AT TERBİYESİ-DRESAJ <span class="material-symbols-outlined">
+check_circle
+</span></h2>
+      <br><hr>
+
+      <div class="card mb-3">
+  <img src="images/at terbiyesi-dresaj.jpg" width="300" height="400"  " class="card-img-top" alt="...">
+  <div class="card-body">
+   <h3 class="card-title">at terbiyesi-dresaj </h3>
+   <hr>
+   <P id="metin">İşte dresajın temel unsurları:</P>
+    <p class="card-text fw-bold" id="baslik">1. Dresaj Arenası ve Harfler
+
+</p>
+<p id="metin">Dresaj çalışmaları belirli ölçülerdeki (metre) bir sahada yapılır. Sahanın kenarlarındaki harfler , binicinin hangi manevrayı nerede uyguladığını gösteren referans noktalardır.
+</p>
+<p id="metin"> <b>Terbiyesi'nde (Dresaj)</b> , atın doğal hareketlerini mükemmelleştirmeyi, takılmasıni ve binicisiyle olan uyumunu en üst seviyede tutmanın bir biniciliğidir. Program "atın balesi" olarak sunulan bu spor, binicinin en hafif komutlarına yönlendirilir ve takipkar bir şekilde cevap verme esasına dayanır. </p>
+ 
+<p class="card-text fw-bold" id="baslik">2. Temel Yürüyüş Biçimleri ve Topluluk (Koleksiyon) </p>
+  <p id="metin">Dresajda doğal yürüyüşleri olan adeta , tırıs ve dörtnal geliştirilir. "Topluluk" (Collection), ağırlık merkezini arka ayaklarına kaydırarak ön kısmı hafifletmesi ve daha düzenli, yaylanan adımlar atmasıdır.
+  </p>
+<p class="card-text fw-bold" id="baslik">3. İleri Seviye Hareketler (Yüksek Okul) </p>
+  <p id="metin">Eğitimin ilerleyen aşamalarında, sadece belirgin karmaşık hareketler sergiler:
+    <ul>
+  <li class="fw-bold">Piaffe:</li><p id="cumle"> Atın olduğu yerde, oldukça ritmik bir şekilde tırıs yapılıyor.</p>
+  <li class="fw-bold">Pasaj:</li><p id="cumle">Tırısın çok daha yaylanan, havada kalma süresi uzun olan formüldür.
+  <li class="fw-bold">Piruet: </li><p id="cumle">Atın arka ayaklar çevresinde olduğu yerde döngüdür.</p>
+  <li class="fw-bold">Uçar Değişim: </li><p id="cumle">Dörtnalda ayak değiştirerek yön değiştirmedir.</p>
+</p>
+</ul>
+<p class="card-text fw-bold" id="baslik">4. Bininin Oturuşu ve Yardımlar </p>
+  <p id="metin">Dresaj binicisi, eyerde dik ve dengeli bir şekilde oturuyor. Atlas iletişim; dizginler, dolgular ve vücut ağırlıklarıyla (yardımlar) kurulur. Amaç, bu kumandaların seyirci tarafından fark edilemeyecek kadar hafif olmasıdır. 
+    <p id="metin">Dresajın en üst seviyedeki Serbest Stil (Kür) yarışmalarında ve binici, bu zorlu hareket hareketleri bir müzik eşliğinde koreografi olarak sergiler.</p>
+  </p>
+  </div>
+</div>
+  </div>
+</div>
+  </div>
+</section>
+
+
+<!--at terbiyesi end-->
+
+<!--engel atlama start-->
+<section class="text-center p-4" id="engelatlama" >
+  <div class="container">
+      <h2 class="fw-bold">ENGEL ATLAMA <span class="material-symbols-outlined">
+social_leaderboard
+</span></h2>
+      <br><hr>
+
+<div class="card mb-3" >
+  <div class="row g-0">
+    <div class="col-md-4">
+      <img src="images/engelatlam5.jpg" width="750" height="800" class="img-fluid rounded-start" alt="...">
+    </div>
+    <div class="col-md-8">
+      <div class="card-body">
+        
+        <p class="card-text"><b>Engel Atlama (Engel Atlama)</b>, binici ve atın belirli bir süre içinde, parkur üzerindeki engelleri hata yapmadan ve en hızlı şekilde aşmayı başarmayı başaran popüler bir binicilik disiplinidir. Bu branşta dinamiklik, hız ve teknik hassasiyet ön plandır.
+</p>
+  <p id="metin">İşte engel atlamanın temel unsurları:</p>
+  <p class="card-text fw-bold" id="baslik">1. Atlayışın uykuları </p>
+  <p id="metin">Bir engel geçilirken ve binici beş temel aşamadan geçilir:</p>
+  <ul>
+  <li class="fw-bold">Yaklaşma: </li><p id="cumle"> Atın engelden önceki son adımlar; tempo ve denge kısıtlanır.</p>
+  <li class="fw-bold">Yükseliş (Kalkış):</li><p id="cumle">Atın arka ayaklarıyla yerden güç alıp havalanması.
+  <li class="fw-bold">Uçuş : </li><p id="cumle">Atın engelin üzerinde havada asılı kaldığı an.</p>
+  <li class="fw-bold">İniş : </li><p id="cumle">Önce ön ayaklar üzerine yere temas etmesi.</p>
+   <li class="fw-bold">Uzaklaşma: </li><p id="cumle">Bir sonraki engele hazırlık için dengenin tekrar kurulması.</p>
+</p>
+</ul>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<div class="card mb-3" >
+  <div class="row g-0">
+    <div class="col-md-4">
+      <img src="images/engeltürleri.avif" width="700" height="750" class="img-fluid rounded-start" alt="...">
+    </div>
+    <div class="col-md-8">
+      <div class="card-body">       
+  <p class="card-text fw-bold" id="baslik">2. Binicinin pozisyonu
+ </p>
+  <p id="metin">Atılım sırasında binicinin en önemli görevi, aralıklarını bozmamak ve onun hareketlerine uyumu sağlamak:
+</p>
+  <ul>
+  <li class="fw-bold">İki Nokta Oturuşu: </li><p id="cumle"> Binici kalçasını eyerden hafifçe kaldırır ve ağırlığını üzengilere vererek öne eğilir.</p>
+  <li class="fw-bold">Eller ve Dizgin:</li><p id="cumle"> Atın uzunluğunu uzatmak için binici ellerini atın yelesine doğru uzatır ("bırakma").
+  <li class="fw-bold">Bakış:  </li><p id="cumle">Binici her zaman bir sonraki engele veya varış noktasına doğru ileri bakar.</p>
+</p>
+</ul>
+
+<p class="card-text fw-bold" id="baslik">3. Engel Türleri
+
+ </p>
+  <p id="metin">Yarışmalarda farklı sıcaklık seviyelerinde çeşitli engel türleri kullanılır:
+</p>
+  <ul>
+  <li class="fw-bold">Dikey (Dik Engel): </li><p id="cumle"> Sadece aralıkları içeren, dikey çubuklardan oluşan engeldir.</p>
+  <li class="fw-bold">Oxer (Enli Engel):</li><p id="cumle"> Hem yükseklik hem de genişlik içeren iki dikey sıradan oluşan engeldir.
+  <li class="fw-bold">Kombinasyon:   </li><p id="cumle">aralıklarda çok az mesafe bulunan, birbirini takip eden iki veya üç engelden oluşan dizilerdir.</p>
+</p>
+</ul>
+
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="card mb-3" >
+  <div class="row g-0">
+    <div class="col-md-4">
+      <img src="images/engel atlama 4.jpg" width="700" height="750" class="img-fluid rounded-start" alt="...">
+    </div>
+    <div class="col-md-8">
+      <div class="card-body">       
+  <p class="card-text fw-bold" id="baslik">4. Puanlama ve Hatalar
+
+ </p>
+  <p id="metin">Engel atlamada amaç en az hata ödülüyle (ceza) parkuru bitirmektir. Cezanın verildiği durumlar: 
+</p>
+  <ul>
+  <li class="fw-bold">Engel Devirme: </li><p id="cumle"> Atın ayaklarının engele çarpıp çubuklarını düşürmesi.</p>
+  <li class="fw-bold">Ret (Red):</li><p id="cumle">Atın engelin önünde olanların veya yanından kaçması.
+  <li class="fw-bold">Zaman Aşımı: </li><p id="cumle">Parkurun kaydedildiği süreden daha uzun sürede bitirilmesi.</p>
+</p>
+</ul>
+<p id="metin">Daha fazla ayrıntı için <a href="https://www.binicilik.org.tr/">Türkiye Binicilik Federasyonu </a>veya <a href="https://binicilikokulu.com/engel-atlama-nedir/">Binicilik Okulu'nun </a>kaynaklarını inceleyebilirsiniz.
+</p>
+
+
+      </div>
+    </div>
+  </div> 
+</div>
+
+
+  </div>
+</section>
+
+<!--engel atlama end-->
+
+<!--geleneksel sporlar start-->
+<section class="text-center p-4" id="gelenekselspor" >
+  <div class="container">
+      <h2 class="fw-bold">GELENEKSEL SPORLAR <span class="material-symbols-outlined">
+trophy
+</span></h2>
+      <br><hr>
+
+
+<div class="row row-cols-1 row-cols-md-3 g-4">
+  <div class="col">
+    <div class="card h-100">
+      <img src="images/cirit.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Atlı Cirit </h5> <br>
+        <p class="card-text">Rahvan binicilik,bölümlerde gelen veya sonradan öğretilen özel bir yürüyüş tarzını sergilediği, "atın en konforlu hali" olarak bilinen geleneksel bir spor dalıdır. Diğer atlı sporlar hız ve hedefe odaklanırken, rahvan binicilikte ana odaklılıksız hız ve stildir .</p>
+        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop9">
+          Devamını Oku...
+        </button>
+      </div>
+    </div>
+  </div>
+
+
+
+  <div class="col">
+    <div class="card h-100">
+      <img src="images/atli-okculuk.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Atlı Okçuluk</h5><br>
+        <p class="card-text">Hareket halindeki bir fırlatma, veya serbestken hedefe ok atma sanatıdır. 100 metrelik parkurlarda, ayakta veya hareketli hedeflere karşı icra edilir.</p>
+        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop10">
+          Devamını Oku...
+        </button>
+      </div>
+    </div>
+  </div>
+
+<div class="col">
+    <div class="card h-100">
+      <img src="images/Rahvan Binicilik.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Rahvan Binicilik </h5><br>
+        <p class="card-text">Atın, binicisini sarsmadan ve hızlı şekilde gitmesini sağlayan özel bir yürüyüş tekniğine (rahvan) dayalı yarış türüdür.</p>
+        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop11">
+          Devamını Oku...
+        </button>
+      </div>
+    </div>
+  </div>
+
+
+<div class="col">
+    <div class="card h-100">
+      <img src="images/Kökbörü (Gökbörü).webp" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Kökbörü (Gökbörü) </h5><br>
+        <p class="card-text">KökbörüGökbörü (veya binicilik), genellikle "ataların sporu" olarak adlandırılır ve belki de tüm geleneksel Türk at sporları arasında fiziksel olarak en zorlu ve stratejik olanıdır. Orta Asya göçebe yaşamından kaynaklanan bu spor, sürülerin kurtlardan korunmasını simüle eder ve binicinin gücünün ve atın cesaretinin gerçek bir sınavıdır.</p>
+        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop12">
+          Devamını Oku...
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <div class="col">
+    <div class="card h-100">
+      <img src="images/atli-kizak.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Atlı Kızak </h5><br>
+        <p class="card-text">Atlı kızak, özellikle Doğu Anadolu'da, sadece bir spor olmaktan öte; hayatta kalma gerekliliğinden rekabetçi bir kültürel mirasa dönüşmüş, kış yaşamının hayati bir parçasıdır.</p>
+        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop13">
+          Devamını Oku...
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <div class="col">
+    <div class="card h-100">
+      <img src="images/Çevgen (Atlı Top)2.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Çevgen (Atlı Top) </h5><br>
+        <p class="card-text"><b>ÇevgenGenellikle modern polonun</b> atası olarak anılan atlı sporu, Türk tarihinin en eski takım sporlarından biridir. Günümüzde soylular ve seçkin kulüplerle ilişkilendirilse de, kökeni Orta Asya göçebe savaşçılarının at binme ve koordinasyon becerilerini geliştirmek için yapılan bir askeri eğitim tatbikatına dayanmaktadır.</p>
+        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop14">
+          Devamını Oku...
+        </button>
+      </div>
+    </div>
+  </div>
+
+
+</div>
+
+  </div>
+</section>
+
+
+<!--geleneksel sporlar end-->
+
+<!--hakkımda start-->
+<section class="text-center p-4" id="hakkimda" >
+  <div class="container">
+      <h2 class="fw-bold">HAKKIMDA <span class="material-symbols-outlined">
+folder_copy
+</span></h2>
+      <br><hr>
+
+
+   
+  <div class="konum-wrapper">
+
+  <div class="harita">
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3064.2332850590087!2d30.4074321!3d39.824186999999995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14cc137977c1d5f1%3A0xb5d336c033c44738!2sTulpar%20Park%20Binicilik%20Kul%C3%BCb%C3%BC!5e0!3m2!1str!2str!4v1774296973924!5m2!1str!2str" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+  </div>
+
+  <div class="gorsel">
+   <img class="foto" src="images/tulpar.jpg" >
+  </div>
+
+</div> 
+
+<br>
+
+  <p>
+    <span class="material-symbols-outlined">location_on</span>
+    Eskişehir/Tepebaşı
+  </p>
+
+  <p>
+    <span class="material-symbols-outlined">public</span>
+    Türkiye’de binicilik ve at kültürüne ilgi duyan bir platform
+  </p>
+
+
+
+
+<div class="hakkimda-container">
+
+  <div class="hakkimda-kart">
+    <span class="material-symbols-outlined icon">pets</span>
+    <h4>Atlar</h4>
+    <p>
+     
+      Bu site, atlar hakkında bilgileri paylaşmak için oluşturulmuştur.
+    </p>
+  </div>
+
+  <div class="hakkimda-kart">
+    <span class="material-symbols-outlined icon">menu_book</span>
+    <h4>Bilgi Paylaşımı</h4>
+    <p>
+      At ırkları, bakım, beslenme ve binicilik hakkında faydalı bilgiler sunarak
+      herkes için yararlı bir kaynak oluşturmayı hedeflenmektedir.
+    </p>
+  </div>
+
+  <div class="hakkimda-kart">
+    <span class="material-symbols-outlined icon">eco</span>
+    <h4>Doğa ve Uyum</h4>
+    <p>
+      Binicilik sadece bir spor değil, doğayla uyum içinde olmayı öğreten
+      özel bir yaşam tarzıdır.
+    </p>
+  </div>
+
+  <div class="hakkimda-kart">
+    <span class="material-symbols-outlined icon">favorite</span>
+    <h4>Amaç</h4>
+    <p>
+      At sevgisini yaymak, yeni başlayanlara rehber olmak ve bu tutkuyu
+      daha fazla kişiye ulaştırmak.
+    </p>
+  </div>
+  <br><br>
+
+</div>
+
+  
+  
+
+
+
+
+
+  </div>
+</section>
+
+
+<!--hakkımda end-->
+<!--iletişim start -->
+<section class="text-center p-4" id="iletisim">
+        <div class="container">
+            <h2 class="fw-bold">İLETİŞİM
+           
+              <span class="material-symbols-outlined">
+phone_enabled
+</span> </h2>
+            
+            <hr>
+                <form>
+                    <div class="mb-3">
+                      <label for="exampleInputEmail1" class="form-label fw-bold">Adınız:</label>
+                      <input type="text" class="form-control" id="exampleInputEmail1" placeholder="Adınızı Giriniz" aria-describedby="emailHelp">
+                    </div>
+                    <div class="mb-3">
+                        <label for="exampleInputEmail1" class="form-label fw-bold">Soyadınız:</label>
+                        <input type="text" class="form-control" id="exampleInputEmail1" placeholder="Soyadınızı Giriniz" aria-describedby="emailHelp">
+                      </div>
+                    <div class="mb-3">
+                      <label for="exampleInputPassword1" class="form-label fw-bold">Mesajınız:</label>
+                     <textarea name="" cols="30" rows="10" id="" class="form-control"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-lg">Gönder</button>
+                  </form>
+
+        </div>
+    </section>     
+
+
+<!--iletişim end-->
+<footer  class="bg-dark text-center text-light pt-4">
+  
+      Tüm Hakları Saklıdır. <br> &copy; 2026 <br>
+      Desing by AYAN <br>
+      <img src="images/pngwing.com.png" width="23" height="23" alt="">
+      <img src="images/whatsapp.png" width="20" height="20" alt="">
+      <img src="images/google.png" width="24" height="24" alt="">
+      <img src="images/messenger.png" width="25" height="25" alt="">
+
+
+</footer>
+    
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+</body>
+</html>
